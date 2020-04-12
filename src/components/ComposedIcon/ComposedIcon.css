@@ -1,0 +1,73 @@
+.ComposedIcon__wrapper {
+    position:relative;
+}
+
+.ComposedIcon__icon {
+    line-height: 0px;
+}
+
+.ComposedIcon__extraIcon {
+    position: absolute;
+    line-height: 0px;
+    text-shadow:
+        0.75px 0px 0.2px #FFF,
+        0px 0.75px 0.2px #FFF,
+        -0.75px 0px 0.2px #FFF,
+        0px -0.75px 0.2px #FFF,
+        0px 0px 0.25px #FFF,
+        0px 0px 0.25px #FFF;
+}
+
+.ComposedIcon__position__top-start {
+    top: 0px;
+    left: 0px;
+}
+.ComposedIcon__position__top {
+    top: 0px;
+}
+.ComposedIcon__position__top-end {
+    top: 0px;
+    right: 0px;
+}
+.ComposedIcon__position__left-start {
+    left: 0px;
+    top: 0px;
+}
+.ComposedIcon__position__left {
+    left: 0px;
+}
+.ComposedIcon__position__left-end {
+    left: 0px;
+    bottom: 0px;
+}
+.ComposedIcon__position__right-start {
+    right: 0px;
+    top: 0px;
+}
+.ComposedIcon__position__right {
+    right: 0px;
+}
+.ComposedIcon__position__right-end {
+    right: 0px;
+    bottom: 0px;
+}
+.ComposedIcon__position__bottom-start {
+    left: -4px;
+    bottom: -4px;
+}
+.ComposedIcon__position__bottom {
+    bottom: 0px;
+}
+.ComposedIcon__position__bottom-end {
+    right: -4px;
+    bottom: -4px;
+}
+
+.ComposedIcon__extraIcon__detail {
+    padding: 2px 2px;
+}
+
+.ComposedIcon__extraIcon__detail[disabled],
+.ComposedIcon__extraIcon__detail:disabled {
+    color: rgba(0,0,0,0.35);
+}
