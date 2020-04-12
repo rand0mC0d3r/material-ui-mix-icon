@@ -23,7 +23,7 @@ class ComposedIconPreview extends Component {
           color="primary"
           size="small"
           startIcon={<ComposedIcon
-            props={props}
+            position={props.position}
             color="primary"
             size='small'
             icon='server'
@@ -38,10 +38,9 @@ class ComposedIconPreview extends Component {
           color="default"
           size="medium"
           startIcon={<ComposedIcon
-            props={props}
-            color="default"
+            position={props.position}
             size="medium"
-            icon='server'
+            icon={['fab', 'microsoft']}
             extraIcon='dharmachakra'/>}>
           Sample
         </Button>
@@ -53,7 +52,7 @@ class ComposedIconPreview extends Component {
           color="primary"
           size="large"
           startIcon={<ComposedIcon
-            props={props}
+            position={props.position}
             color="primary"
             size="large"
             icon='server'
@@ -68,7 +67,7 @@ class ComposedIconPreview extends Component {
           color="secondary"
           size="small"
           startIcon={<ComposedIcon
-            props={props}
+            position={props.position}
             color="secondary"
             size='small'
             icon='server'
@@ -83,7 +82,7 @@ class ComposedIconPreview extends Component {
           color="secondary"
           size="medium"
           startIcon={<ComposedIcon
-            props={props}
+            position={props.position}
             size="medium"
             color="secondary"
             icon='server'
@@ -98,7 +97,7 @@ class ComposedIconPreview extends Component {
           color="secondary"
           size="large"
           startIcon={<ComposedIcon
-            props={props}
+            position={props.position}
             color="secondary"
             size="large"
             icon='server'
@@ -110,7 +109,7 @@ class ComposedIconPreview extends Component {
 
         <IconButton aria-label="sample-icon-button">
           <ComposedIcon
-            props={props}
+            position={props.position}
             size="large"
             icon='server'
             extraIcon='dharmachakra'/>
@@ -120,7 +119,7 @@ class ComposedIconPreview extends Component {
 
         <IconButton aria-label="sample-icon-button">
           <ComposedIcon
-            props={props}
+            position={props.position}
             size="small"
             icon='server'
             extraIcon='dharmachakra'/>
@@ -130,7 +129,7 @@ class ComposedIconPreview extends Component {
 
         <Fab variant="extended">
           <ComposedIcon
-            props={props}
+            position={props.position}
             size="small"
             icon='server'
             extraIcon='dharmachakra'/>
@@ -141,7 +140,7 @@ class ComposedIconPreview extends Component {
 
         <Fab disabled aria-label="like">
           <ComposedIcon
-            props={props}
+            position={props.position}
             size="large"
             disabled
             icon='server'
@@ -157,7 +156,7 @@ class ComposedIconPreview extends Component {
             startAdornment: (
               <InputAdornment position="start">
                 <ComposedIcon
-                  props={props}
+                  position={props.position}
                   size="small"
                   icon='server'
                   extraIcon='dharmachakra'/>
@@ -177,7 +176,7 @@ class ComposedIconPreview extends Component {
             startAdornment: (
               <InputAdornment position="start">
                 <ComposedIcon
-                  props={props}
+                  position={props.position}
                   size="small"
                   icon='server'
                   extraIcon='dharmachakra'/>
