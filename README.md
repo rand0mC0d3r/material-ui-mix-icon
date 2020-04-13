@@ -2,6 +2,9 @@
 
 Combine 2 icons for status display, exception or variance presentation.
 
+![](assets/examples.png)
+
+
 **Purpose**: When having a simple icon to describe one element, sometimes, the element being flavored in specific ways needs a consistent way to describe complex states; e.g:
 - *User vs User with Admin Privileges*
 - *Server vs Server provisioned with K8s*
@@ -20,6 +23,8 @@ Variables supported by the library and available knobs for customization. All en
 
 ##### Optional Properties
 
+![](assets/positions.png)
+
 - *size* - selection from Material UI standard values: small, medium or large. Default: **small**
 - *color* - inherited property from Material UI. Possible values: inherit, primary, secondary. Default: **inherit**
 - *position* - Placement of extra icon. Possible values: top-start, top-end, bottom-start, bottom-end. Default: **bottom-end**
@@ -28,6 +33,8 @@ Variables supported by the library and available knobs for customization. All en
 ---
 
 #### Usage
+
+![](assets/preview.png)
 
 Simple usage in Material UI elements, as child element or startIcon or start/endAdornment:
 
