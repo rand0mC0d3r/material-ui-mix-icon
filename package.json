@@ -14,7 +14,6 @@
     "babel-loader": "^8.0.6"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.10",
     "@material-ui/icons": "^4.9.1",
     "react": "^16.13.1"
   },
@@ -26,6 +25,7 @@
   "files": [
     "LICENSE",
     "*.md",
+    "lib",
     "src"
   ],
   "keywords": [
