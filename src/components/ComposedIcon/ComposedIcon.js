@@ -16,11 +16,17 @@ const ComposedIcon = ({
   position = 'bottom-end',
   disabled,
 }) => (
-  <div style={{ position: 'relative' }}>
+  <div style={{
+    position: 'relative',
+    cursor: 'default'
+  }}>
     <div style={{ lineHeight: '0px' }}>
       <Icon
         className={Array.isArray(icon) ? icon.join(' ') : `fa fa-${icon}`}
-        style={{ fontSize: sizesMap[size].size }} />
+        style={{
+          fontSize: sizesMap[size].size,
+          width: '1.25em'
+        }} />
     </div>
     <div
       style={{
