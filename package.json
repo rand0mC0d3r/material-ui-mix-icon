@@ -1,6 +1,6 @@
 {
   "name": "material-ui-mix-icon",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "<ComposedIcon> component for material-ui",
   "main": "src/index.js",
   "private": false,
