@@ -2,7 +2,7 @@
 
 Combine 2 icons for status display, exception or variance presentation.
 
-![](assets/examples.png)
+![](https://raw.githubusercontent.com/rand0mC0d3r/material-ui-mix-icon/master/assets/examples.png)
 
 
 **Purpose**: When having a simple icon to describe one element, sometimes, the element being flavored in specific ways needs a consistent way to describe complex states; e.g:
@@ -23,7 +23,7 @@ Variables supported by the library and available knobs for customization. All en
 
 ##### Optional Properties
 
-![](assets/positions.png)
+![](https://raw.githubusercontent.com/rand0mC0d3r/material-ui-mix-icon/master/assets/positions.png)
 
 - *size* - selection from Material UI standard values: small, medium or large. Default: **small**
 - *color* - inherited property from Material UI. Possible values: inherit, primary, secondary. Default: **inherit**
@@ -34,7 +34,7 @@ Variables supported by the library and available knobs for customization. All en
 
 #### Usage
 
-![](assets/preview.png)
+![](https://raw.githubusercontent.com/rand0mC0d3r/material-ui-mix-icon/master/assets/preview.png)
 
 Simple usage in Material UI elements, as child element or startIcon or start/endAdornment:
 
